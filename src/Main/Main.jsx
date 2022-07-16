@@ -1,13 +1,20 @@
 import React from "react";
-import s from './Navbar.module.css';
+import s from './Main.module.css';
+import sContainer from '../common/styles/Container.module.css'
 
-export const Navbar = () => {
+export const Main = () => {
     return (
-        <div className={s.nav}>
-            <a href="">Home</a>
-            <a href="">Skills</a>
-            <a href="">Proects</a>
-            <a href="">Contact</a>
+        <div className={s.mainBlock}>
+            <div className={sContainer.container}>
+                <div className={s.text}>
+                    <span>Hi people</span>
+                    <h1>I am Sasha Zhdanovich</h1>
+                    <p>Fronted developer</p>
+                </div>
+                <div className={s.photo}>
+
+                </div>
+            </div>
         </div>
     );
 }

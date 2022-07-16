@@ -1,6 +1,15 @@
-.nav {
-    border: 1px solid red;
-    display: flex;
+.mainBlock {
+    height: 100vh;
+    background-color: khaki;
+}
+
+.text {
     width: 300px;
-    justify-content: space-around;
+    background-color: lightyellow;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: lightyellow;
 }

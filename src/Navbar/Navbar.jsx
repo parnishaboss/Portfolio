@@ -1,9 +1,13 @@
 import React from "react";
-import s from './Header.module.css';
+import s from './Navbar.module.css';
 
-export const Header = () => {
+export const Navbar = () => {
     return (
-        <div className={s.header}>
+        <div className={s.nav}>
+            <a href="">Home</a>
+            <a href="">Skills</a>
+            <a href="">Proects</a>
+            <a href="">Contact</a>
         </div>
     );
 }
