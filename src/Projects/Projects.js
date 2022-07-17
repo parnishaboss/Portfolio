@@ -11,9 +11,9 @@ export const Projects = () => {
                 <div className={s.projects}>
                     <Project title='Todolist'
                             discriptiom='111 222 333 444 555 666'/>
-                    <Project title='Homeworks'
+                    <Project title='Todolist'
                              discriptiom='111 222 333 444 555 666'/>
-                    <Project title='Social network'
+                    <Project title='Todolist'
                              discriptiom='111 222 333 444 555 666'/>
                 </div>
             </div>

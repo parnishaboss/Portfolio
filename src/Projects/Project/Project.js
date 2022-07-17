@@ -1,17 +1,16 @@
 import React from "react";
 import s from './Project.module.css';
-import projectImage from './img/Projectfoto.jpg'
 
 export const Project = (props) => {
     return (
         <div className={s.project}>
             <div className={s.projectBlock}>
-                <img className={s.image} src={projectImage} alt=""/>
-                <button className={s.btn}>
+                <img className={s.image} src={''} alt=""/>
+                <a href={''} className={s.btn}>
                     Open
-                </button>
+                </a>
             </div>
-            <div>
+            <div className={s.discription}>
                 <h3>{props.title}</h3>
                 <span>{props.discriptiom}</span>
             </div>
