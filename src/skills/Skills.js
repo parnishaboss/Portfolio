@@ -10,11 +10,11 @@ export const Skills = () => {
                 <h2 className={s.title}>My skills</h2>
                 <div className={s.skills}>
                     <Skill title='js'
-                           discription='Privet 1'/>
+                           discription='Дорогие друзья, новая модель организационной деятельности влечет за собой '/>
                     <Skill title='css'
-                           discription='Privet 2'/>
+                           discription='Дорогие друзья, новая модель организационной деятельности влечет за .'/>
                     <Skill title='react'
-                           discription='Privet 3'/>
+                           discription='Дорогие друзья, новая модель организационной деятельности влечет .'/>
                 </div>
             </div>
         </div>

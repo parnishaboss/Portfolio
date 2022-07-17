@@ -10,6 +10,7 @@ export const Skill = (props) => {
             <span className={s.discription}>
                 {props.discription}
             </span>
+
         </div>
     );
 }
