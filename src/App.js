@@ -5,11 +5,13 @@ import {Main} from "./Main/Main";
 import {Skills} from "./skills/Skills";
 import {Projects} from "./Projects/Projects";
 import {Contacts} from "./Contacts/Contacts";
+import {New} from "./new/New";
 
 function App() {
     return (
         <div className="App">
             <Header/>
+            <New/>
             <Main/>
             <Skills/>
             <Projects/>
