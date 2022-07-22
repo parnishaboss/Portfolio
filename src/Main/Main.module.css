@@ -1,30 +1,43 @@
-@keyframes animatedBackground {
-    0% {
-        background-position: 0 0
-    }
-    100% {
-        background-position: -600px 600px
-    }
-}
-
-.mainBlock {
+.contactBlock {
+    background: linear-gradient(to right, #262626, #0d0d0d);
+    width: 100%;
     height: 100vh;
-    background-color: khaki;
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg');
-    animation: animatedBackground 60s linear infinite;
-    -moz-animation: animatedBackground 60s linear infinite;
-    -webkit-animation: animatedBackground 60s linear infinite;
-    -o-animation: animatedBackground 60s linear infinite;
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
 }
 
 .text {
-    width: 300px;
-    background-color: lightyellow;
+    text-align: center;
+}
+.mainTitle {
+    font-family: 'Righteous', cursive;
+    background: url('https://media.giphy.com/media/FE0WTM8BG754I/giphy.gif') center center no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6vw;
+    letter-spacing: 10px;
+    background-size: cover;
+    margin: 0;
+    color: transparent;
 }
 
-.photo {
+.mainDiscription {
+    font-family: 'Caveat', cursive;
+    color: transparent;
+    font-size: 2vw;
+    letter-spacing: 5px;
+    margin: 0;
+    background: linear-gradient(to right, #c4c4c4, #6a6a6a);
+    -webkit-background-clip: text;
+}
+
+.mainFoto {
     width: 300px;
     height: 400px;
-    background-color: lightyellow;
+    background:url("https://sun9-64.userapi.com/impf/c837139/v837139878/4672d/ekI2ARGKkGg.jpg?size=640x640&quality=96&sign=5c00dd78af723ec21de1e55e8121b437&type=album");
+    background-position: center;
+    background-size: cover;
 }

@@ -1,6 +1,31 @@
-.nav {
-    border: 1px solid red;
+.nav {;
     display: flex;
-    width: 300px;
+    width: 370px;
     justify-content: space-around;
+    background-color: #0d0d0d;
+    overflow: hidden;
+    font-family: 'Kanit', sans-serif;
+}
+.nav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.5s;
+    letter-spacing: 1.2px;
+}
+.nav a:hover {
+    /*background-color: #262626;*/
+    color: #6823a2;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    border-bottom: 4px solid #6823a2;
+    border-radius: 2px;
+}
+
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
